@@ -33,3 +33,5 @@ The project demonstrates modern HTML, CSS, and JavaScript patterns, comprehensiv
 - A modern browser that supports IndexedDB (Chrome, Firefox, Edge, Safari)
 
 ## Installation
+
+<!-- kept it simple here -->
