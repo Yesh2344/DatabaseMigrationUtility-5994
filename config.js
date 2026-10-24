@@ -21,6 +21,7 @@ if (typeof process !== 'undefined' && process.env) {
             DB_NAME: process.env.DB_NAME || config.DB_NAME,
             DB_VERSION: Number(process.env.DB_VERSION) || config.DB_VERSION,
             LOG_LEVEL: process.env.LOG_LEVEL || config.LOG_LEVEL
+// tiny readability tweak
         };
     } catch (e) {
         // dotenv not installed – ignore; defaults remain.
