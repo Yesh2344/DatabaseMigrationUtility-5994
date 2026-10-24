@@ -1,6 +1,7 @@
 /**
  * Simple logger with configurable levels.
  *
+// rewrote this part
  * Levels (lowest → highest): debug, info, warn, error
  */
 
