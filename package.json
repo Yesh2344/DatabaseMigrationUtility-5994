@@ -1,0 +1,22 @@
+{
+  "name": "database-migration-utility",
+  "version": "1.0.0",
+  "description": "A client‑side IndexedDB migration utility with a UI demo.",
+  "main": "migration.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test_migration.js"
+  },
+  "keywords": [
+    "indexeddb",
+    "migration",
+    "javascript",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "idb": "^7.1.1"
+  }
+}

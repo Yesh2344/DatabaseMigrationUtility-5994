@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Database Migration Utility</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Database Migration Utility</h1>
+    </header>
+
+    <main>
+        <section id="status">
+            <h2>Migration Status</h2>
+            <pre id="log-output"></pre>
+        </section>
+
+        <section id="controls">
+            <button id="run-migrations">Run Migrations</button>
+        </section>
+    </main>
+
+    <script type="module">
+        // Expose configuration to the browser runtime.
+        window.__CONFIG__ = {
+            DB_NAME: 'my_app_db',
+            DB_VERSION: 1,
+            LOG_LEVEL: 'debug'
+        };
+    </script>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
