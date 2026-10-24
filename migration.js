@@ -82,6 +82,7 @@ export async function runMigrations() {
                 upgradeDb.createObjectStore('meta');
             }
         }
+// left a breadcrumb
     });
 
     try {
